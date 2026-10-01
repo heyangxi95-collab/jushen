@@ -1,0 +1,53 @@
+{
+  "ready_for_match": false,
+  "competition": {
+    "start_topic": "/start_signal",
+    "start_keyword": "start",
+    "time_limit_seconds": 600,
+    "exit_reserve_seconds": 30,
+    "event_log": "runtime/competition_events.jsonl",
+    "evidence_adapter_ready": false
+  },
+  "vision": {
+    "weights": "models/embodied2026.pt",
+    "image_size": 640,
+    "confidence": 0.55,
+    "max_retry": 5
+  },
+  "navigation": {
+    "goal_timeout_seconds": 35
+  },
+  "arm": {
+    "robot_type": "j2n6s300"
+  },
+  "waypoints": {
+    "entry": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "living_room": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "bedroom": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "dining_room": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "kitchen": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "score_zone": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]},
+    "exit": {"position": ["TODO", "TODO", "TODO"], "orientation": ["TODO", "TODO", "TODO", "TODO"]}
+  },
+  "search_order": ["living_room", "bedroom", "dining_room", "kitchen"],
+  "targets": [
+    {"id": "L1_01", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_02", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_03", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_04", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_05", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_06", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_07", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L1_08", "level": 1, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L2_01", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "floor"},
+    {"id": "L2_02", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "floor"},
+    {"id": "L2_03", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "floor"},
+    {"id": "L2_04", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "floor"},
+    {"id": "L2_05", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L2_06", "level": 2, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "tabletop_or_shelf"},
+    {"id": "L3_01", "level": 3, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "container"},
+    {"id": "L3_02", "level": 3, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "container"},
+    {"id": "L3_03", "level": 3, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "container"},
+    {"id": "L3_04", "level": 3, "display_name": "TODO", "model_label": "TODO", "search_waypoint": "TODO", "pick_profile": "container"}
+  ]
+}
